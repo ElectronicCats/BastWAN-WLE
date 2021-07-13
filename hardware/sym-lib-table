@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bastwan-wle-rescue)(type Legacy)(uri ${KIPRJMOD}/bastwan-wle-rescue.lib)(options "")(descr ""))
+)

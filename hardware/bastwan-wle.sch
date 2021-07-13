@@ -877,7 +877,7 @@ FD 67 C1 BF B5 B4 BF 47 5B 1B D8 1A CB 36 EC A2 EE C5 9D DF C7 61 03 E7 51 D4 FC
 EndData
 $EndBitmap
 $Comp
-L Bast_WAN-rescue:USB_B_Micro-Connector J1
+L bastwan-wle-rescue:USB_B_Micro-Connector-Bast_WAN-rescue J1
 U 1 1 5D4D715B
 P 1140 1300
 F 0 "J1" H 1140 1650 50  0000 C CNN
@@ -1128,7 +1128,7 @@ D+
 Text Label 1600 1400 0    50   ~ 0
 D-
 $Comp
-L Bast_WAN-rescue:AP2112K-3.3TRG1-electroniccats U2
+L bastwan-wle-rescue:AP2112K-3.3TRG1-electroniccats-Bast_WAN-rescue U2
 U 1 1 5DC7B9FC
 P 2425 4405
 F 0 "U2" H 2170 4745 50  0000 C CNN
@@ -1157,7 +1157,7 @@ U 1 1 5DC7DE85
 P 7455 5650
 F 0 "AE1" H 7599 5689 50  0000 L CNN
 F 1 "Antenna" H 7599 5598 50  0000 L CNN
-F 2 "bast-wan:SMA_EDGE" H 7455 5750 50  0001 C CNN
+F 2 "Rf:SMA_EDGE" H 7455 5750 50  0001 C CNN
 F 3 "~" H 7455 5750 50  0001 C CNN
 F 4 "-" H 1445 4405 50  0001 C CNN "manf#"
 	1    7455 5650
@@ -1375,7 +1375,7 @@ F 3 "" H 1120 4510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bast_WAN-rescue:DMG2301L-Transistor_FET Q1
+L bastwan-wle-rescue:DMG2301L-Transistor_FET-Bast_WAN-rescue Q1
 U 1 1 5DD047C9
 P 1370 3945
 F 0 "Q1" H 1220 3990 50  0000 L CNN
@@ -1804,12 +1804,12 @@ $EndComp
 Text Notes 7910 4045 0    79   ~ 0
 LED
 $Comp
-L Electronic_Cats:RAK3172 U1
+L bastwan-wle-rescue:RAK3172-Electronic_Cats U1
 U 1 1 60EFEE08
 P 8010 1555
 F 0 "U1" H 8400 1790 50  0000 C CNN
 F 1 "RAK3172" H 7645 1820 50  0000 C CNN
-F 2 "" H 7610 1605 50  0001 C CNN
+F 2 "Rf:RAK4630" H 7610 1605 50  0001 C CNN
 F 3 "" H 7610 1605 50  0001 C CNN
 	1    8010 1555
 	1    0    0    -1  
