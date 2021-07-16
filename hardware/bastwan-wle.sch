@@ -1104,8 +1104,6 @@ Wire Wire Line
 	3900 1625 3950 1625
 Wire Wire Line
 	3900 1425 3950 1425
-Text Label 3950 1425 0    50   ~ 0
-EN
 $Comp
 L Connector_Generic:Conn_02x01 J4
 U 1 1 5D4DC9A5
@@ -1693,8 +1691,6 @@ F 3 "" H 7340 4630 50  0001 C CNN
 $EndComp
 Text Label 8145 4575 0    79   ~ 0
 D13
-Text Label 1620 4470 3    50   ~ 0
-EN
 Wire Notes Line
 	2400 5375 2400 7825
 Wire Notes Line
@@ -2152,4 +2148,5 @@ Wire Wire Line
 	2510 4235 2785 4235
 Wire Wire Line
 	1465 4235 1910 4235
+NoConn ~ 3950 1425
 $EndSCHEMATC
