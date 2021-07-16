@@ -2131,17 +2131,6 @@ Wire Notes Line
 	4935 5350 4935 8055
 Wire Notes Line
 	4935 8055 4920 8055
-$Comp
-L Regulator_Linear:MCP1700-1202E_SOT23 U2
-U 1 1 60F17AD5
-P 2985 4295
-F 0 "U2" H 2985 4537 50  0000 C CNN
-F 1 "MCP1700-1202E_SOT23" H 2985 4446 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2985 4520 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 2985 4295 50  0001 C CNN
-	1    2985 4295
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2985 4595 2985 4685
 Wire Wire Line
@@ -2149,4 +2138,15 @@ Wire Wire Line
 Wire Wire Line
 	2240 4295 2685 4295
 NoConn ~ 3950 1425
+$Comp
+L Regulator:MCP1700_DFN6 U2
+U 1 1 60F6422D
+P 2985 4295
+F 0 "U2" H 2985 4537 50  0000 C CNN
+F 1 "MCP1700_DFN6" H 2985 4446 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" H 2985 4520 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 2985 4295 50  0001 C CNN
+	1    2985 4295
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
