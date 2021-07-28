@@ -1478,9 +1478,9 @@ P 1655 7310
 F 0 "D4" V 1602 7388 50  0000 L CNN
 F 1 "CHR" V 1693 7388 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1655 7310 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 1655 7310 50  0001 C CNN
-F 4 "19-217/GHC-YR1S2/3T" H -235 30  50  0001 C CNN "manf#"
-F 5 "C72043" H 1655 7310 50  0001 C CNN "#LCSC"
+F 3 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Orient-ORH-G36G_C205443.html" H 1655 7310 50  0001 C CNN
+F 4 "ORH-G36G" H -235 30  50  0001 C CNN "manf#"
+F 5 "C205443" H 1655 7310 50  0001 C CNN "#LCSC"
 F 6 "LCSC" H 1655 7310 50  0001 C CNN "Proveedor"
 	1    1655 7310
 	0    1    1    0   
@@ -1622,9 +1622,9 @@ F 3 "" H 4150 6685 50  0001 C CNN
 $EndComp
 Text Notes 3695 5655 0    79   ~ 0
 LIPO MONITORING
-Text Label 9450 4350 0    50   ~ 0
+Text Label 9785 4350 2    50   ~ 0
 SWDIO
-Text Label 9450 4450 0    50   ~ 0
+Text Label 9785 4450 2    50   ~ 0
 SWCLK
 $Comp
 L power:GND #PWR025
@@ -1688,9 +1688,9 @@ P 7855 4575
 F 0 "D5" H 7848 4791 50  0000 C CNN
 F 1 "D13" H 7848 4700 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7855 4575 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-R6C-AL1M2VY-3T_C72044.pdf" H 7855 4575 50  0001 C CNN
-F 4 "19-217/R6C-AL1M2VY/3T" H 1740 -3020 50  0001 C CNN "manf#"
-F 5 "C72044" H 7855 4575 50  0001 C CNN "#LCSC"
+F 3 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_ARKLED-Wuxi-ARK-Tech-Elec-D-060306R1-SS2-L_C118330.html" H 7855 4575 50  0001 C CNN
+F 4 "D-060306R1/SS2/L" H 1740 -3020 50  0001 C CNN "manf#"
+F 5 "C118330" H 7855 4575 50  0001 C CNN "#LCSC"
 F 6 "LCSC" H 7855 4575 50  0001 C CNN "Proveedor"
 	1    7855 4575
 	1    0    0    -1  
@@ -1777,22 +1777,20 @@ $EndComp
 Wire Wire Line
 	7825 6465 7825 6535
 Wire Wire Line
-	9780 4665 9780 4550
-Wire Wire Line
-	9780 4550 9450 4550
+	9780 4665 9780 4650
 Wire Wire Line
 	9780 4150 9780 4250
 Wire Wire Line
-	9780 4250 9450 4250
+	9780 4250 9870 4250
 $Comp
-L Connector:Conn_01x04_Male J5
+L Connector:Conn_01x06_Female J5
 U 1 1 5E1A06D2
-P 9250 4350
-F 0 "J5" H 9358 4631 50  0000 C CNN
-F 1 "SWD" H 9358 4540 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9250 4350 50  0001 C CNN
-F 3 "~" H 9250 4350 50  0001 C CNN
-	1    9250 4350
+P 10070 4450
+F 0 "J5" H 10178 4731 50  0000 C CNN
+F 1 "SWD" H 10178 4640 50  0000 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 10070 4450 50  0001 C CNN
+F 3 "~" H 10070 4450 50  0001 C CNN
+	1    10070 4450
 	1    0    0    -1  
 $EndComp
 Text Notes 7675 4075 0    79   ~ 0
@@ -2206,4 +2204,15 @@ F 6 "MCP1700T3302EMAY" H 2985 4295 50  0001 C CNN "manf#"
 	1    2985 4295
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9870 4350 9785 4350
+Wire Wire Line
+	9785 4450 9870 4450
+Wire Wire Line
+	9870 4650 9780 4650
+NoConn ~ 9870 4750
+Text Label 9785 4550 2    50   ~ 0
+RST
+Wire Wire Line
+	9870 4550 9785 4550
 $EndSCHEMATC
