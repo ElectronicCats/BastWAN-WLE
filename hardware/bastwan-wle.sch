@@ -2193,7 +2193,7 @@ Wire Wire Line
 	2240 4295 2685 4295
 NoConn ~ 3950 1425
 $Comp
-L Regulator:MCP1700_DFN6 U2
+L bastwan-wle-rescue:MCP1700_DFN6-Regulator U2
 U 1 1 60F6422D
 P 2985 4295
 F 0 "U2" H 2985 4537 50  0000 C CNN
