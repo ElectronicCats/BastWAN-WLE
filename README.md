@@ -4,7 +4,7 @@ BastWAN-WLE is all the best in the world format Feather and LoRa with a RAK3172 
 
 We love all our Feathers equally, but this Feather is very special.
 
-That doesn't mean you cant also use it with Arduino IDE! At the Bast's heart is an RAK4260 ARM Cortex M4 processor, clocked at 48 MHz and at 3.3V logic. This chip has a whopping 256K of FLASH (8x more than the Atmega328 or 32u4) and 64K of RAM (32x as much)!.
+That doesn't mean you cant also use it with Arduino IDE! At the Bast's heart is an RAK3172 ARM Cortex M4 processor, clocked at 48 MHz and at 3.3V logic. This chip has a whopping 256K of FLASH (8x more than the Atmega328 or 32u4) and 64K of RAM (32x as much)!.
 
 Here's some handy specs!
 
