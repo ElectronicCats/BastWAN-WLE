@@ -15572,7 +15572,7 @@
   (gr_text "WLE" (at 93.375 75.075) (layer "B.SilkS") (tstamp 9c8e37e8-5fb2-4bbf-bf72-b7b396f9cb47)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "v1.2" (at 89.925 75.075) (layer "B.SilkS") (tstamp ec0b3062-fec8-4159-b282-3c3e632ad68c)
+  (gr_text "v1.3" (at 89.925 75.075) (layer "B.SilkS") (tstamp ec0b3062-fec8-4159-b282-3c3e632ad68c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
 
