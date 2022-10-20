@@ -15,7 +15,7 @@ Here's some handy specs!
 - LoRa Point to Point (P2P) communication
 - Long-range - greater than 15 km with optimized antenna
 - Arm Cortex-M4 32-bit
-- 256 kbytes flash memory with ECC
+- 256 kbytes flash memory
 - 64 kbytes RAM
 - Ultra-Low Power Consumption of 1.69 μA in sleep mode
 - Supply Voltage: 2.0 V ~ 3.6 V
