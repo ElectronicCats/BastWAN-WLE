@@ -40,6 +40,13 @@ Lipoly battery and USB cable not included (but we do have lots of options in the
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
 </a>
 
+# Wiki and Getting Started with BastWAN-WLE
+Visit our wiki to understood what is and how the BastWAN-WLE works. 
+
+[Getting Started in our Wiki](https://github.com/ElectronicCats/BastWAN-WLE/wiki)
+
+![](https://user-images.githubusercontent.com/107638696/196248370-f44b058e-d185-4c61-999d-bcc7314ff605.png)
+
 # License
 
 ![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
